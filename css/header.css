@@ -1,5 +1,6 @@
 .header {
-
+    border-bottom: 1px solid #e7e9fc
+ 
 }
 
 .logo {
@@ -38,6 +39,9 @@
 }
 
 .header-nav-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: 500;
     color: #2e2f42;
 

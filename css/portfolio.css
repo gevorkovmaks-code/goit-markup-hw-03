@@ -3,6 +3,7 @@
 }
 
 .portfolio-title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -13,22 +14,19 @@
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 24px;
-    column-gap: 48px ;
+    row-gap: 48px;
+    column-gap: 24px ;
 
 
 }
 
 .portfolio-list-item {
-    width: calc((100% - 48px * 2) / 3);
+    width: calc((100% - 24px * 2) / 3);
 
 }
 
 .portfolio-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-
+ 
 }
 
 .portfolio-project-title {

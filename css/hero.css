@@ -1,12 +1,13 @@
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0px;
 
 }
 .hero .container { 
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 188px 0px;
+
 
 }
 .hero-title {
@@ -22,6 +23,7 @@
 }
 
 .hero-btn {
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
