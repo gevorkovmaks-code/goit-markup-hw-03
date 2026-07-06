@@ -3,6 +3,8 @@
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-family: 'Raleway',  sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -12,11 +14,22 @@
    
 }
 
-.header-nav {
+.header .container{
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
+.header-nav {
+    margin-left: 76px;
+    margin-right: auto;
+  
 }
 
 .header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 
 }
 
@@ -31,10 +44,12 @@
 }
 
 .address {
-
 }
 
 .contacts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 
 }
 

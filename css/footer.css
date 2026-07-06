@@ -1,8 +1,19 @@
 .footer {
+    padding: 100px 0px;
     background: #2e2f42;
 }
 
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -12,8 +23,8 @@
 }
 
 .footer-text {
-    
-color: #f4f4fd;
+    color: #f4f4fd;
+    width: 264px;
 }
 
 .footer-logo .logo-accent {
@@ -24,3 +35,6 @@ color: #f4f4fd;
 .footer-logo .logo-light {
     color: #f4f4fd;
 }
+ 
+
+
