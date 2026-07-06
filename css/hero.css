@@ -11,7 +11,7 @@
 
 }
 .hero-title {
-    margin: auto;
+    margin-top: 0;
     max-width: 496px;
     margin-bottom: 48px;
     font-weight: 700;
